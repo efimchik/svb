@@ -1,0 +1,13 @@
+.mod_home-slider-text {
+ padding-left: 55px;
+ padding-right: 55px;
+}
+.mod_home-slider-text-wrap {
+ margin-right: 0;
+}
+@media (max-width: 639px) {
+ .mod_home-slider-text {
+  padding-left: 17px;
+  padding-right: 17px;
+ }
+}

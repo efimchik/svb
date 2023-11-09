@@ -1,0 +1,317 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Фотоглаерея</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href="css/main.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/user.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>			
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>		
+	<![endif]-->	
+</head>
+
+<body>
+	<!--start wraper-->
+	<div class="wraper"> 
+		<header class="header">
+			<div class="header__top">		
+				<div class="header__center">
+					<div class="header__top-info">
+						<div class="search">
+							<input type="text" class="search__input" placeholder="Какое мероприятие или информацию вы ищете?">
+							<button type="submit" class="search__button"></button>
+						</div>
+						<div class="language">
+							<span class="language__item language__item--active">ru</span>
+							<span class="language__item">en</span>
+						</div>
+						<div class="ls">
+							<a href="ls.html" class="ls__link">Кабинет</a>
+							<a class="header_exit" href="">(Выход)</a>
+						</div>
+					</div>
+					<div class="social">
+						<a id="bx_3218110189_35" target="_blank" class="social__fb" href="http://facebook.com"></a>
+						<a id="bx_3218110189_36" target="_blank" class="social__ok" href="http://ok.ru"></a>
+						<a id="bx_3218110189_34" target="_blank" class="social__vk" href="http://vk.vom"></a>
+						<a target="_blank" class="social__tw" href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="header__center">
+					<a href="index.html" class="header__bottom-logo"><img src="img/svg/logo.svg" alt=""></a>
+					<nav class="top__menu-wrap">
+						<div class="top__menu-mob"></div>
+						<div class="top__menu-mob--closed">
+							<span class="top__menu-mob--title">Меню</span>
+							<span class="top__menu-mob--close"></span>
+						</div>
+						<ul class="top__menu">
+							<li class="top__menu-item top__menu-item--curent">
+								<a href="#" class="top__menu-link">О проекте</a>
+					
+								<ul class="top__submenu">
+									<li class="top__submenu-item">
+										<a href="about-project.html" class="top__submenu-link">О проекте</a>
+									</li>
+									<li class="top__submenu-item">
+										<a href="person.html" class="top__submenu-link">Лица компании</a>
+									</li>
+									<li class="top__submenu-item">
+										<a href="news.html" class="top__submenu-link">Новости</a>
+									</li>
+									<li class="top__submenu-item">
+										<a href="faq.html" class="top__submenu-link">Вопросы и ответы</a>
+									</li>
+									<li class="top__submenu-item">
+										<a href="photogalery.html" class="top__submenu-link">Фотогаллерея</a>
+									</li>
+								</ul>
+					
+							</li>
+							<li class="top__menu-item">
+								<a href="events.html" class="top__menu-link">Мероприятия</a>
+							</li>
+							<li class="top__menu-item">
+								<a href="fundraising.html" class="top__menu-link">Фандрайзинг</a>
+							</li>
+							<li class="top__menu-item">
+								<a href="partners.html" class="top__menu-link">Партнерам</a>
+							</li>
+							<li class="top__menu-item">
+								<a href="for-children.html" class="top__menu-link">Для детей</a>
+							</li>
+							<li class="top__menu-item">
+								<a href="regions.html" class="top__menu-link">Регионы</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<!--start content_wrap-->
+		<div class="content_wrap">
+			<div class="photogalery__content">
+				<div class="mod_breadcrumbs">
+					<a href="index.html">Главная</a>
+					<span>Фотогаллерея</span>
+				</div>
+				<div class="mod__title-content">
+					<h1>Фотогаллерея</h1>
+				</div>
+			</div>
+			<div class="filter">
+			
+				<div class="filter__wrap">
+					<div class="mod__title">
+						<h3>Фото и видео</h3>
+					</div>
+					<ul class="filter__list">
+						<li class="filter__list-item active" data-filter="all">Все</li>
+						<li class="filter__list-item" data-filter=".photo">Только фото</li>
+						<li class="filter__list-item" data-filter=".video">Только видео</li>
+					</ul>
+				</div>
+			
+				<div  id="project-filter" class="filter__container">
+					<div class="filter__container-item photo">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-1.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-count">325 фото</span>
+								<span class="filter__container-title">Альбом первый</span>
+								<span class="filter__container-desc">Краткое описание альбома, входящих в него фото и события, с которыми фото связаны</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item video">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-2.jpg" alt="">
+						</a>
+					</div>
+					<div class="filter__container-item video">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-3.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-title">Видео с велозаезда 2016</span>
+								<span class="filter__container-desc">Краткое описание видео, а также события, с которым оно связано</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item photo">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-4.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-count">325 фото</span>
+								<span class="filter__container-title">Альбом первый</span>
+								<span class="filter__container-desc">Краткое описание альбома, входящих в него фото и события, с которыми фото связаны</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item photo">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-5.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-count">325 фото</span>
+								<span class="filter__container-title">Альбом первый</span>
+								<span class="filter__container-desc">Краткое описание альбома, входящих в него фото и события, с которыми фото связаны</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item photo">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-6.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-count">325 фото</span>
+								<span class="filter__container-title">Альбом первый</span>
+								<span class="filter__container-desc">Краткое описание альбома, входящих в него фото и события, с которыми фото связаны</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item photo">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-1.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-count">325 фото</span>
+								<span class="filter__container-title">Альбом первый</span>
+								<span class="filter__container-desc">Краткое описание альбома, входящих в него фото и события, с которыми фото связаны</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item video">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-2.jpg" alt="">
+						</a>
+					</div>
+					<div class="filter__container-item video">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-3.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-title">Видео с велозаезда 2016</span>
+								<span class="filter__container-desc">Краткое описание видео, а также события, с которым оно связано</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item photo">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-4.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-count">325 фото</span>
+								<span class="filter__container-title">Альбом первый</span>
+								<span class="filter__container-desc">Краткое описание альбома, входящих в него фото и события, с которыми фото связаны</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item photo">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-5.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-count">325 фото</span>
+								<span class="filter__container-title">Альбом первый</span>
+								<span class="filter__container-desc">Краткое описание альбома, входящих в него фото и события, с которыми фото связаны</span>
+							</span>
+						</a>
+					</div>
+					<div class="filter__container-item photo">
+						<a href="#"  class="filter__container-link">
+							<img src="img/pic/filter-img-6.jpg" alt="">
+							<span class="filter__container-text">
+								<span class="filter__container-count">325 фото</span>
+								<span class="filter__container-title">Альбом первый</span>
+								<span class="filter__container-desc">Краткое описание альбома, входящих в него фото и события, с которыми фото связаны</span>
+							</span>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!--start footer-->
+	<footer class="footer">
+		<div class="footer__center">
+			<div class="footer__info">
+				<span class="footer__info-phone">+7 (499) 367-1000</span>
+				<span class="footer__info-phone mob_phone"><a href="tel:+7 (499) 367-1000">+7 (499) 367-1000</a></span>
+				<span class="footer__info-address">105043. г.Москва. ул. 3-я Парковая. д. 14А</span>
+				<a href="mailto:mail@sportvoblago.ru" class="footer__info-mail">mail@sportvoblago.ru</a>
+				<span class="footer__info-copy">«Спорт во благо» © 2016</span>
+				<span class="footer__info-dev">Дизайн и разработка — iBrush</span>
+			</div>
+			<ul class="footer__menu">
+				<li class="footer__menu-item">
+					<span>О проекте</span>
+					<ul class="footer__submenu-list">
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Лица компании</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Новости</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Вопросы и ответы</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Фотогаллерея</a>
+						</li>
+					</ul>
+				</li>
+				<li class="footer__menu-item">
+					<span>ФАНДРАЙЗИНГ</span>
+					<ul class="footer__submenu-list">
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Индивидуальные команды</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Корпоративные команды</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Атлеты во благо</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Архив</a>
+						</li>
+					</ul>
+				</li>
+				<li class="footer__menu-item">
+					<span>Полезное</span>
+					<ul class="footer__submenu-list">
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Лица компании</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Новости</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Вопросы и ответы</a>
+						</li>
+						<li class="footer__submenu-item">
+							<a href="#" class="footer__submenu-link">Фотогаллерея</a>
+						</li>
+					</ul>
+				</li>
+				<li class="footer__menu-item footer__menu--helper"></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script type="text/javascript" src="js/yandex_map.js"></script>
+	<script src="https://yastatic.net/share2/share.js" async="async"></script>
+	<!-- <script type="text/javascript" src="js/jquery.mixitup.js"></script> -->
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/iaccordion.js"></script>
+	<script type="text/javascript" src="js/jquery.easydropdown.js"></script>
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+	<script type="text/javascript" src="js/load_input_module.js"></script>
+	<script type="text/javascript" src="js/flatpickr.js"></script>
+	<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>
